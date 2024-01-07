@@ -1,0 +1,28 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: slategray;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button {
+  background-color: white;
+  color: slategray;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: lightgray;
+}
+#response {
+  margin-top: 20px;
+}
